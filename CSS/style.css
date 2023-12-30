@@ -2,6 +2,8 @@
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
 }
 .main{
     display: flex;
@@ -20,7 +22,7 @@ input{
     border-radius: 25px;
 }
 form{
-    background-color: rgb(122, 122, 122);
+    background-image: url(/img/Textura.jpg);
     border-radius: 10px;
     padding: 10px;
 }
@@ -28,11 +30,26 @@ form{
     display: flex;
 
     justify-content: end;
-    padding-right: 5px;
+    padding-right: 1px;
     height: 50px;
 
 }
 
 .ora{
     padding: 20px 21px;
+}
+.button-c input{
+    height: 50px;
+    width: 100%;
+    padding: 15px 18px;
+}
+form input .text{
+    background-color: aqua;
+}
+.resultado{
+    background-color: #fff;
+    padding-right: -25px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-size: 20px;
 }
