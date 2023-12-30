@@ -8,14 +8,20 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <h1>Teste 2</h1>
     <div class="main">
+        <h1>Calculadora</h1>
         <form action="" name="Calculadora">
-            <input type="text" class="text maincolor" name="text1" disabled>
-            <input type="button" value="C" class="text maincolor" name="text2" 
+            <input type="text" class="text maincolor" name="text1" disabled><br>
+            <div class="c">
+                <div class="button-c">
+                    <input type="button" value="C" class="text maincolor c" name="text2" 
                         onclick="location.reload()"><br>
+                </div>
+            </div>
+           
 
-            <input type="button" value="9" class="num maincolor" name="btn9" 
+            <div class="numeros">
+                <input type="button" value="9" class="num maincolor" name="btn9" 
                         onclick="displaynum(btn9.value)">
             <input type="button" value="8" class="num maincolor" name="btn8" 
                         onclick="displaynum(btn8.value)">
@@ -42,7 +48,7 @@
             <input type="button" value="*" class="num gre" name="multbtn" 
                         onclick="displaynum(multbtn.value)"><br>
 
-            <input type="button" value="." class="num maincolor" name="dot" 
+            <input type="button" value="." class="num ora" name="dot" 
                         onclick="displaynum(dot.value)">
             <input type="button" value="0" class="num maincolor" name="btn0" 
                         onclick="displaynum(btn0.value)">
@@ -50,6 +56,8 @@
                         onclick="text1.value=eval(text1.value)">
             <input type="button" value="/" class="num ora" name="divbtn" 
                         onclick="displaynum(divbtn.value)"><br>
+            </div>
+            
         </form>
     </div>
 </body>
