@@ -22,7 +22,7 @@ input{
     border-radius: 25px;
 }
 form{
-    background-image: url(/img/Textura.jpg);
+    background-image: url(../img/Textura.jpg);
     border-radius: 10px;
     padding: 10px;
 }
